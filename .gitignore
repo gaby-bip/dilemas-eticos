@@ -1,0 +1,11 @@
+# Arquivos compilados
+*.class
+
+# Saves do jogo
+src/dados/saves/*.dat
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
