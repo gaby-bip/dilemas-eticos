@@ -1,8 +1,40 @@
-# Simulador de Dilemas Eticos Corporativos
+# Simulador de Dilemas Éticos Corporativos
 
-Aplicacao de console em Java onde o jogador toma decisoes em dilemas eticos corporativos. As escolhas alteram etica, relacionamento, reputacao e desempenho, influenciam cenarios condicionais e determinam o final da carreira.
+## Sobre o Projeto
 
-## Estrutura
+Este projeto foi desenvolvido em Java como uma aplicação de console baseada em Programação Orientada a Objetos (POO).
+
+O jogador assume o papel de um funcionário em uma empresa e enfrenta diversos dilemas éticos ao longo de sua carreira. Cada decisão tomada influencia atributos importantes do personagem, afetando o desenvolvimento da história e o resultado final.
+
+## Funcionalidades
+
+* Novo jogo
+* Continuação de partidas salvas
+* Salvamento automático do progresso
+* Sistema de atributos do personagem
+* Histórico de escolhas
+* Cenários condicionais
+* Múltiplos finais possíveis
+* Persistência de dados em arquivo local
+
+## Atributos do Personagem
+
+* Ética
+* Relacionamento
+* Reputação
+* Desempenho
+
+Cada decisão pode aumentar ou diminuir esses atributos, influenciando os próximos eventos da narrativa.
+
+## Tecnologias Utilizadas
+
+* Java 17
+* Programação Orientada a Objetos
+* Serialização de Objetos
+* Collections (ArrayList)
+* Manipulação de Arquivos
+
+## Estrutura do Projeto
 
 ```text
 src/
@@ -18,25 +50,13 @@ src/
     └── saves/
 ```
 
-## Como executar no IntelliJ IDEA
+## Como Executar
 
-1. Abra esta pasta como projeto.
-2. Configure um SDK Java 17 ou superior.
-3. Marque a pasta `src` como Sources Root, se necessario.
-4. Execute a classe `Main`.
+1. Instale o JDK 17 ou superior.
+2. Abra o projeto em uma IDE Java (IntelliJ IDEA, Eclipse ou VS Code).
+3. Execute a classe `Main.java`.
+4. Escolha iniciar uma nova simulação ou continuar uma partida existente.
 
-## Como executar no Eclipse
+## Objetivo Acadêmico
 
-1. Crie um Java Project apontando para esta pasta ou importe como projeto existente.
-2. Use JDK 17 ou superior.
-3. Execute `Main.java` como Java Application.
-
-## Salvamento
-
-O progresso e salvo automaticamente apos cada escolha em:
-
-```text
-src/dados/saves/save_NomeDoPersonagem.dat
-```
-
-Para continuar, escolha `2 - Continuar Jogo` no menu principal e informe o mesmo nome usado no novo jogo.
+Projeto desenvolvido para praticar conceitos de Programação Orientada a Objetos, persistência de dados, estruturação de projetos Java e desenvolvimento de aplicações interativas baseadas em decisões.
